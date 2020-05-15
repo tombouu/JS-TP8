@@ -1,0 +1,31 @@
+body{
+    background-color: pink;
+}
+
+.div{
+    display: flex;
+}
+
+#top {
+    flex-direction: row-reverse;
+    margin-right: 10%;
+}
+
+#container{
+    flex-direction: row; 
+    padding-top: 1%;
+    margin-top: 1px solid black;
+}
+
+
+#tight{
+    flex: 1;
+}
+
+#left{
+    flex:1;
+}
+
+#bouton{
+    margin-left: -35%;
+}
